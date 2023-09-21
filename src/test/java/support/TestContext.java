@@ -70,7 +70,7 @@ public class TestContext {
                     chromePreferences.put("profile.default_content_settings.popups", 0);
                     chromePreferences.put("download.prompt_for_download", false);
                     chromePreferences.put("download.directory_upgrade", true);
-                    chromePreferences.put("download.default_directory", System.getProperty("user.dir") + "/src/test/resources/downloads");
+                    chromePreferences.put("webdriver.chrome.driver", System.getProperty("user.dir") + "/src/test/resources/downloads/chromedriver.exe");
                     chromePreferences.put("safebrowsing.enabled", false);
                     chromePreferences.put("plugins.always_open_pdf_externally", true);
                     chromePreferences.put("plugins.plugins_disabled", new ArrayList<String>(){{ add("Chrome PDF Viewer"); }});
